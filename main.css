@@ -1,0 +1,41 @@
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+
+li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+}
+
+li a {
+    display:block;
+    min-width:140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+    background: #2f3036;
+    text-decoration: none;
+}
+
+li:hover a  { 
+    background: lightgrey;
+    color: whitesmoke;
+
+}
+
+li:hover ul a {
+    background: #2f3036;
+    color: whitesmoke;
+    height: 40px;
+    line-height: 40px;
+}
+#list1 , #list2 , #list3{
+    width: 140px;
+}
